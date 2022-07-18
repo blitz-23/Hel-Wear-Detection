@@ -1,0 +1,12 @@
+Implementation Details:
+------------------------
+1. We are using Object detection method here.
+2. We used yolo dataset for detecting helmet object
+3. The aim of project is giving security alert to bank manager if a person wears a helmet inside ATM machine room
+4. The person may carry a helmet also.
+5. But we defined our problem of identifying helmet if weared by a person
+6. For this we considered finding skin inside the helment
+7. We define a threshold value for skin (if he hold in hands we will not considered as the score value for skin is less) and we detect it
+8 SMS alret sent to manager in identification time
+
+
